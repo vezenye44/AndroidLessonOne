@@ -6,4 +6,6 @@
     <string name="switch_text">Switch</string>
     <string name="switch_on">ON</string>
     <string name="switch_off">OFF</string>
+    <string name="toggle_button_on">Lock</string>
+    <string name="toggle_button_off">Unlock</string>
 </resources>
