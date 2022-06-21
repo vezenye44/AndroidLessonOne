@@ -35,7 +35,15 @@
     />
 
     <Switch android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:showText="true"
+            android:gravity="start"
+            android:text="@string/switch_text"
+            android:checked="true"
+            android:thumb="@color/thumb_color"
+            android:textOn="@string/switch_on"
+            android:textOff="@string/switch_off"
+    />
 
     <CheckBox android:layout_width="match_parent"
               android:layout_height="wrap_content"/>
