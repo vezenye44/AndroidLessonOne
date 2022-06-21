@@ -2,4 +2,5 @@
     <string name="app_name">AndroidLessonOne</string>
     <string name="default_greeting">Hello, Geekbrains!</string>
     <string name="default_hint">enter the text ...</string>
+    <string name="button_text">Button</string>
 </resources>

@@ -27,7 +27,12 @@
     />
 
     <Button android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:text="@string/button_text"
+            android:textAllCaps="true"
+            android:backgroundTint="@color/button_color"
+            android:onClick="buttonOnClick"
+    />
 
     <Switch android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
