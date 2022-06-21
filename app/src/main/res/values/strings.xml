@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidLessonOne</string>
+    <string name="default_greeting">Hello, Geekbrains!</string>
 </resources>
