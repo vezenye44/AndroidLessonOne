@@ -5,7 +5,8 @@
               android:padding="16dp"
               xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <TextView android:layout_width="wrap_content"
+    <TextView android:id="@+id/my_text_view"
+              android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:ems="9"
               android:lines="3"
@@ -16,7 +17,8 @@
               android:gravity="center"
     />
 
-    <EditText android:layout_width="match_parent"
+    <EditText android:id="@+id/my_edit_text"
+              android:layout_width="match_parent"
               android:layout_height="0dp"
               android:layout_weight="1"
               android:gravity="top|start"
@@ -26,7 +28,8 @@
               android:inputType="textMultiLine"
     />
 
-    <Button android:layout_width="match_parent"
+    <Button android:id="@+id/my_button"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/button_text"
             android:textAllCaps="true"
@@ -34,7 +37,8 @@
             android:onClick="buttonOnClick"
     />
 
-    <Switch android:layout_width="match_parent"
+    <Switch android:id="@+id/my_switch"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:showText="true"
             android:gravity="start"
@@ -45,12 +49,14 @@
             android:textOff="@string/switch_off"
     />
 
-    <CheckBox android:layout_width="match_parent"
+    <CheckBox android:id="@+id/my_check_box"
+              android:layout_width="match_parent"
               android:layout_height="wrap_content"
               android:theme="@style/my_checkbox_style"
     />
 
-    <ToggleButton android:layout_width="match_parent"
+    <ToggleButton android:id="@+id/my_toggle_button"
+                  android:layout_width="match_parent"
                   android:layout_height="wrap_content"
                   android:checked="true"
                   android:textOn="@string/toggle_button_on"
