@@ -52,8 +52,10 @@
               android:inputType="date"
     />
 
-    <EditText android:layout_width="match_parent"
+    <EditText android:id="@+id/edit_text_nine"
+              android:layout_width="match_parent"
               android:layout_height="wrap_content"
+              android:inputType="textCapCharacters|textNoSuggestions"
     />
 
 </LinearLayout>
