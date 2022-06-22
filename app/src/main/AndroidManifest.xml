@@ -10,7 +10,7 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.AndroidLessonOne">
         <activity
-                android:name=".MainActivity"
+                android:name=".FirstTaskActivity"
                 android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
