@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">AndroidLessonOne</string>
+    <string name="default_greeting">Hello, Geekbrains!</string>
+    <string name="default_hint">enter the text ...</string>
+    <string name="button_text">Button</string>
+    <string name="switch_text">Switch</string>
+    <string name="switch_on">ON</string>
+    <string name="switch_off">OFF</string>
+    <string name="toggle_button_on">Lock</string>
+    <string name="toggle_button_off">Unlock</string>
 </resources>

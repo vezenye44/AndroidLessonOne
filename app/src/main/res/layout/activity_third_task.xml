@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CalendarView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:firstDayOfWeek="2"
+              android:minDate="01/01/2020"
+              android:maxDate="01/01/2024"
+              android:background="@color/calendar_background"
+>
+
+</CalendarView>
