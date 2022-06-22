@@ -11,4 +11,5 @@
     <color name="button_color">#E74E43</color>
     <color name="thumb_color">#331010FF</color>
     <color name="toggle_button_color">#99121266</color>
+    <color name="calendar_background">#33AA4477</color>
 </resources>
